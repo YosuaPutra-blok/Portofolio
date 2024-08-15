@@ -1,0 +1,26 @@
+#table {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 60%;
+    align-content: center;
+}
+
+#table td, #table th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;      
+}
+
+#table tr:nth-child(even){background-color: #ffffff;}
+
+#table tr:hover {background-color: rgb(66, 68, 43);} 
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ff0000;
+    color: rgb(0, 255, 242);
+    font-size: 50px;
+}
